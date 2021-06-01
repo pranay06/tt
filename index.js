@@ -1,6 +1,6 @@
 const { Telegraf } = require('telegraf')
 const bot = new Telegraf(process.env.TOKEN);
-console.log("T is ==== ", process.env.TOKEN);
+console.log("T is ===== ", process.env.TOKEN);
 
 bot.command('start', ctx => {
     console.log(ctx.from)
